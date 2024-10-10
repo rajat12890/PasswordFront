@@ -11,7 +11,7 @@ import Notes from './component/Notes.jsx'
 axios.defaults.baseURL = 'https://passwordback-zbml.onrender.com';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-       {/* <App /> */}
+       {/* <App /> */} 
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<App />} />
