@@ -8,7 +8,7 @@ import Signup from './component/User/Signup.jsx';
 import Login from './component/User/Login.jsx';
 import NotesHome from './component/NotesHome.jsx'
 import Notes from './component/Notes.jsx'
-axios.defaults.baseURL = 'https://localhost:8015';
+axios.defaults.baseURL = 'https://passwordback-zbml.onrender.com';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
        {/* <App /> */}
